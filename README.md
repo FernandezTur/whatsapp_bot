@@ -2,7 +2,7 @@
 
 Follow the instructions on this [link](https://www.twilio.com/blog/build-a-whatsapp-chatbot-with-python-flask-and-twilio).
 
-## Setup in a Nutshell...
+## In a Nutshell
 For this bot to work, you will need to do the following:
 1. Create a Twilio account (Whatsapp Sandbox)
 2. Setup a virtual environment (pip install twilio flask requests)

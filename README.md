@@ -23,3 +23,6 @@ After setup, follow these steps:
 3. Go to the WhatsApp Sandbox on Twilio and add the ngrok session's HTTPS forwarding address
 	> This address goes on the "When a message comes in" Sandbox Configuration (This is under Messaging/Settings/WhatsApp sandbox settings). Append the forwarding address with the bot-app's name ("whatsapp_bot" in this case). Here is an example of how it should look: https://1876-73-134-115-198.ngrok.io/whatsapp_bot
 4. Don't forget to SAVE!
+
+# Comments
+- Flask: After writting this I discovered that this is not the best option for this. It appears to be unreliable and unsecure. Experts recommend using 'gunicorn' ([Green Unicorn](https://gunicorn.org/)) for production.
